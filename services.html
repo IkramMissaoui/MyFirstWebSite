@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+  	<meta name="author" content="Brad Traversy">
+    <title>Parfum for Women | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Parfum</span> for Women</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Vender</h3>
+              <p>if you want to buy perfume online, be utmost sure of the vendor you are buying it from. Read some reviews, just to be sure they are not selling some cheap knock-offs to you in the name of discount. There are many online retailers who do that, so beware. Check the feedback, and the star ratings for them.</p>
+						  <p>Pricing: $1,000 - $3,000</p>
+            </li>
+            <li>
+              <h3>What you like?</h3>
+              <p>Do you know the kind of perfumes you prefer? Is it floral, fruity, fresh or woody? Or more importantly, do you know the kinds you hate? AVOID them, just because it’s cheap, won’t make you like it. Try looking in the general category that you prefer.</p>
+						  <p>Pricing: $250 per month</p>
+            </li>
+            <li>
+              <h3>Notes:</h3>
+              <p>whenever any perfume discussion starts, it inadvertently goes to notes. So what are these notes? Put simply, notes are the components in a perfume, like ingredients in a dish. As the different ingredients and the quantities used give the dish its distinct taste, in a similar way the different notes, and their quantities used give the perfume their characteristic smell. Love florals, Jasmine, Rose, Freesia, Magnolia etc are some of the notes you should be looking for. Like Woody, look for cedar, mahogany etc in your perfume. Prefer fresh? Look for citrus, organic or aquatic notes.</p>
+						  <p>Pricing: $25 per month</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="section2">
+    
+      <div class="title">
+        <p class="total">Shopping Parfum Total : <span id="total">0</span> <span>$</span></p>
+      </div>
+      <div class="part" id="part1">
+        <div class="icons">
+          <i class="fas fa-skull" onclick="remove()"></i>
+          <i class="fas fa-heart" id="heart" onclick="heart1()"></i>
+        </div>
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXZ16uBF5pteIVYj0N6ircf_B9OAdVbh_0-WUuKcIwbXjX42ufg" alt="">
+        <span class="product-name"><strong>Parfum</strong><br> Channel</span>
+        <div class="btns">
+          <span class="btn" onclick="inc()">+</span>
+          <span class="btn" id="product-qtn">0</span>
+          <span class="btn"  onclick="dec()">-</span>
+        </div>
+        <p class="product-price"><span id="product1price">0</span> <span>$</span></p>
+      </div>
+      <div class="part" id="part2">
+          <div class="icons">
+            <i class="fas fa-skull" onclick="remove2()"></i>
+            <i class="fas fa-heart" id="heart" onclick="heart2()"></i>
+          </div>
+          <img class="image" src="https://png.pngtree.com/element_origin_min_pic/16/10/23/c56b9ccbbda811bfaca0c18a83f15ee7.jpg" alt="">
+          <span class="product-name"><strong>Parfum</strong><br> Dior</span>
+          <div class="btns">
+            <span class="btn" onclick="inc2()">+</span>
+            <span class="btn" id="product-qtn2">0</span>
+            <span class="btn"  onclick="dec2()">-</span>
+          </div>
+          <p class="product-price"><span id="product1price2">0</span> <span>$</span></p>
+        </div>
+        <div class="part" id="part3">
+            <div class="icons">
+              <i class="fas fa-skull" onclick="remove3()"></i>
+              <i class="fas fa-heart" id="heart" onclick="heart3()"></i>
+            </div>
+            <img class="image" src="https://www.dior.com/beauty/version-5.156982000270/resize-image/ep/3000/2000/90/0/MISSDIOR_2019%252F01_Covers%252FY0326210_F032686009_E01_ZHC.jpg" alt="">
+            <span class="product-name"><strong>Parfum</strong><br>DAVIDOFF</span>
+            <div class="btns">
+              <span class="btn" onclick="inc3()">+</span>
+              <span class="btn" id="product-qtn3">0</span>
+              <span class="btn" onclick="dec3()">-</span>
+            </div>
+            <p class="product-price"><span id="product1price3">0</span> <span>$</span></p>
+          </div>
+    </section>
+    <footer>
+      <p>Parfum for Women, Copyright &copy; 2019</p>
+    </footer>
+  </body>
+  <script src="./javascript.js"></script>
+</html>
